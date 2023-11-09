@@ -60,7 +60,7 @@ The current configuration (.github/workflows/playwright.yml) is setup to run tes
 
 ## Reports
 
-The Playwright HTML report for the tests is available [here](https://github.com/antonrosh/checkers-game-ts-playwright/actions/workflows/playwright.yml). You can download the report by clicking on the "playwright-report" link under the "Artifacts" section in each workflow run.
+The Playwright HTML report for the tests is available in reports folder
 
 ## Implementation
 
@@ -71,9 +71,6 @@ A page object model is used to structure the tests, making the test code more re
 ## Project Structure
 
 ```bash
-├── .github/                       # Contains GitHub files
-│   └── workflows/                 # Contains GitHub Action files
-│       └── playwright.yml         # GitHub Actions Playwright workflow
 ├── pages/                         # Contains page classes
 │   ├── games/
 │   │   └── checker.page.ts        # CheckersPage class
