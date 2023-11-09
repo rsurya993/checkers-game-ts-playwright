@@ -23,7 +23,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ```bash
 git clone https://github.com/rsurya993/checkers-game-ts-playwright
-cd checkers-game-automation
+cd checkers-game-ts-playwright
 ```
 
 2. Install the project dependencies.
